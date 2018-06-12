@@ -25,10 +25,11 @@ namespace Minesweeper
             tiles = new Tile[width, height];
             for (int x = 0; x < width; x++)
             {
-                for (int y = 0; y < height; y++)
+                for (int y = 0; y < height; y++);
             }
         }
-        Vector2 halfSize = new Vector2(width * .5f, height * .5f);
+        //Vector2 halfSize = new Vector2(width * .5f, height * .5f);
+
 
     }
 }
